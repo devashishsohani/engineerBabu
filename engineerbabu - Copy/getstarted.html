@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Engineerbabu</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+<!--     <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet"> -->
+  </head>
+  <body class="">
+  <div class="wrapper">  
+ <!--==header start==-->
+    <nav class="navbar navbar-default navbar-fixed-top head">
+      <div class="container">
+        <div class="row ls">
+          <ul class="list-inline text-right">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="javascript:void(0);">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span>Engineer</span>Babu</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right head1">
+            <li><a href="how_it_works.html">How it Works</a></li>
+            <li><a href="success_story.html">Success Story</a></li>
+            <li><a href="featured_portfolio.html">Featured Portfolio</a></li>
+            <li><a href="eb_tv.html">EB TV</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="header-signup" href="getstarted.html">Get Started</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  <!--==header end==-->
+
+
+  <!--==getStarted Start==-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="getStartedd text-center">
+                  <h1>Let&#8217s get started</h1>
+                </div>
+                <div class="col-md-offset-1 col-md-4 getStarted">
+                  <div class="getstart_1 text-center">
+                      <img src="img/client_work.png" alt="Register As Client" class="img-responsive">
+                     
+                      <h2>Register As Client</h2>
+                      <br />
+                      <p>loram impsum is simply</p>
+                      <p>text of the printing</p>
+                      <a href="javascript:void(0);" class="btn btn-md b1_get wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">HIRE</a>    
+                  </div>
+                </div>
+                <div class="col-md-2 get120 text-center">
+                  <p>OR</p>
+                </div>
+                <div class="col-md-4 getStarted">
+                  <div class="getstart_1 text-center">
+                      <img src="img/freelancer.png" alt="Register As Freelancer/Company" class="img-responsive">
+                     
+                      <h2>Register As Team or Freelancer</h2>
+                      <br />
+                      <p>loram impsum is simply</p>
+                      <p>text of the printing</p>
+                     <a href="freelancer_comapny.html" class="btn btn-md b2_get wow fadeIn" data-wow-duration="2s" data-wow-delay="0.58s">WORK</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  <!--==getStarted End==-->
+  </div>
+ <!--==FOOTER START==-->
+  <footer class="footer_1">
+      <div class="container">
+        <div class="col-md-12 fit">
+          <div class="col-md-6 col-xs-12 text-left">
+              <p>&#9400; 2016 by EngineerBabu. All rights reserved. </p>
+               <a href="mailto:name@email.com">hello@engineerbabu.com</a>
+          </div>
+          <div class="col-md-6 col-xs-12 footer_12 text-right">
+            <ul class="list-inline">
+              <li><a href="javascript:void(0);">HOME</a></li>
+              <li><a href="javascript:void(0);">BLOG</a></li>
+              <li><a href="javascript:void(0);">CONTACT</a></li>
+            </ul>
+          </div>
+        
+        </div>
+      </div>
+  </footer>
+  <!--==FOOTER end==-->
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/1033098241.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!--        <script type="text/javascript">
+      $(document).ready(function(){
+        var height = $(window).height();
+        $('.wrapper').height(height);
+      });
+    </script> -->
+  </body>
+</html>
